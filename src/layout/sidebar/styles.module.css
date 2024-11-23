@@ -1,0 +1,17 @@
+.sidebar {
+    width: var(--nav-wide-width); /* Ensure this variable is defined in a global CSS file */
+    height: 100vh;
+    border: 1px solid #dbdbdb;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1264px) and (max-width: 1919px) {
+    .sidebar {
+        width: var(--nav-medium-width); /* Ensure this variable is also defined */
+    }
+}
